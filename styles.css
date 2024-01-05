@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: #0a0a23;
+    height: 100vh;
+}
+
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    max-width: 600px;
+    text-shadow: 0px 0px 1.5px #fff;
+
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+}
+
+#controls,
+#stats {
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #0a0a23;
+    font-weight: 500;
+    text-shadow: 0px 0px 1.5px #0a0a23;
+
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: #0a0a23;
+    font-weight: 600;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+    text-shadow: 0px 0px 1.5px #0a0a23;
+
+}
