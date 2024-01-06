@@ -21,7 +21,6 @@ body {
     color: #ffffff;
     padding: 10px;
     max-width: 600px;
-    text-shadow: 0px 0px 1.5px #fff;
 
 }
 
@@ -40,7 +39,6 @@ body {
     padding: 5px;
     color: #0a0a23;
     font-weight: 500;
-    text-shadow: 0px 0px 1.5px #0a0a23;
 
 }
 
@@ -59,11 +57,18 @@ body {
 button {
     cursor: pointer;
     color: #0a0a23;
+    padding: 0px 5px;
     font-weight: 600;
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
-    text-shadow: 0px 0px 1.5px #0a0a23;
+
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    border: 3px solid #feee4a;
 
 }
 
@@ -71,10 +76,9 @@ button {
 #footer{
     color: #F9FAF8;
     margin: 50px auto;
-    background: #1F2937;
-    font-size: 16px;
-    font-weight: 600;
-    max-width: 400px;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 500px;
     text-align: center;
 
 
@@ -83,4 +87,6 @@ button {
 #footer i:hover{
     cursor: pointer;
     scale: 1.3;
+    transition: 0.3s;
+
 }
